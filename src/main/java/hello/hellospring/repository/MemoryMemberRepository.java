@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.hateoas.HateoasProperties;
 import java.util.*;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
+
 
 public class MemoryMemberRepository implements MemberRepository {
 
